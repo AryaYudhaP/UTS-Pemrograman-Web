@@ -1,0 +1,214 @@
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;  
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.wrapper {
+    width: 1024px;
+    margin: auto;
+    padding: 15px 0px 15px 0px;
+}
+
+/*Menu*/
+
+nav {
+    background-color: #000000;
+    color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 80;
+}
+
+nav > .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+nav ul li a:hover {
+    color: #087405;
+}
+
+.menu {
+    width: 400px;
+}
+
+.menu > ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    justify-content: space-between;
+}
+
+.menu > ul > li > a {
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo > img{
+    height: 30px;
+}
+
+header {
+    background-image: url('../gambar/gambar2.webp');
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.header-opacity {
+    background-color: #000000;
+    width: 100%;
+    height: 100%;
+    opacity: 0.61;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.header-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.header-text > h4 {
+    color: #fff;
+    font-size: 3.5rem;
+    margin: 0;
+    padding: 0;
+    text-shadow: 0 0 4px #000000;
+    text-transform: uppercase;
+}
+
+.header-text > h5 {
+    color: #bebcbc;
+    margin: 0px;
+    padding: 5px;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    text-shadow: none;
+}
+
+/*Profil*/
+#profil {
+    background-color: #fff;
+    color: #000000;
+}
+
+#profil > .wrapper {
+    padding: 50px 0px 50px 0px;
+}
+
+#profil > .wrapper > h4 {
+    text-align: center;
+    font-size: 2.8rem;
+    margin: 0px;
+    padding: 0px;
+}
+
+#profil > .wrapper > div {
+    
+    width: 70%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#profil > .wrapper > div > .foto {
+    margin: auto;
+    width: 30%;
+}
+
+#profil > .wrapper > div > .foto > img {
+    max-width: 100%;
+}
+
+#profil > .wrapper > div > .desc {
+    font-size: 1.5rem;
+    width: 100%;
+    padding: 30px;
+    margin: auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(54, 38, 38, 0.1);
+}
+
+
+.tentangsaya {
+    background-color: #fff;
+    color: #ffffff;
+}
+
+#tentangsaya > .wrapperr {
+    padding: 50px 0px 50px 0px;
+}
+
+#tentangsaya > .wrapperr > h4 {
+    color: #fff;
+    text-align: center;
+    font-size: 2.8rem;
+    margin: 0px;
+    padding: 0px;
+}
+
+#tentangsaya > .wrapperr > div {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tentangsaya > .wrapperr > div > .desk {
+    width: 70%;
+    padding: 20px;
+    margin: 10px;
+    background-color: #bcb8b8;
+    border-radius: 10px;
+}
+
+.desk h4, p{
+    color: #ffffff;
+    font-size: 15px;
+
+}
+
+.footer {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.aman {
+    display: flex   ;
+    padding: 20 px;
+}
